@@ -10,14 +10,14 @@ function StudioLights() {
                     intensity={10}
                     position={[-10, 5, -5]}
                     scale={10}
-                    rotateY={Math.PI / 2}
+                    rotation={[0, Math.PI / 2, 0]}
                 />
                 <Lightformer 
                     form="rect"
                     intensity={10}
                     position={[10, 0, 1]}
                     scale={10}
-                    rotateY={Math.PI / 2}
+                    rotation={[0, Math.PI / 2, 0]}
                 />
             </group>
         </Environment>
